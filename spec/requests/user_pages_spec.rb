@@ -1,6 +1,5 @@
 require 'spec_helper'
 
-<<<<<<< HEAD
 describe "User pages" do
 
   subject { page }
@@ -13,19 +12,12 @@ describe "User pages" do
     it { should have_title(user.name) }
   end
 
-=======
-describe "UserPages" do
-
-  subject { page }
-
->>>>>>> origin/master
   describe "signup page" do
     before { visit signup_path }
 
     it { should have_content('Sign up') }
     it { should have_title(full_title('Sign up')) }
   end
-<<<<<<< HEAD
 
   describe "signup" do
     before { visit signup_path }
@@ -60,6 +52,4 @@ describe "UserPages" do
       end
     end
   end
-=======
->>>>>>> origin/master
 end
